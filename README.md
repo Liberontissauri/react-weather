@@ -1,5 +1,6 @@
 # ReactWeather
 A weather visualization app built with react
 
-##Screenshots
+## Screenshots
+
 ![img](https://i.imgur.com/sqVW7sD.png)
