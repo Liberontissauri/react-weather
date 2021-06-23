@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +11,7 @@ body, html, .App, #root {
   
 .bg {
     /* The image used */
-    background-image: url("https://i.imgur.com/8WRb4RV.jpeg");
+    background-image: url("./images/bg.jpg");
 
     /* Full height */
     height: 100%;
@@ -18,4 +20,8 @@ body, html, .App, #root {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
