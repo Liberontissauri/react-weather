@@ -1,0 +1,45 @@
+$normalOpacity: 0.5;
+$hoverOpacity: 0.6;
+
+.display-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.display-img {
+    margin-bottom: 20px;
+    width: 30vw;
+    min-width: 200px;
+    max-width: 300px;
+    opacity: $normalOpacity;
+    transition: opacity ease 0.5s, transform ease 0.5s;
+}
+.display-img:hover {
+    cursor: pointer;
+    opacity: $hoverOpacity;
+    transform: scale(1.01);
+}
+
+.display-deg {
+    font-size: 52pt;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5px;
+    opacity: $normalOpacity;
+}
+.display-deg:hover {
+    cursor: pointer;
+}
+.display-desc {
+    font-size: 27pt;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    opacity: $normalOpacity;
+}
+.display-date {
+    font-size: 20pt;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    opacity: $normalOpacity;
+}
