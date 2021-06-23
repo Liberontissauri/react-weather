@@ -44,6 +44,7 @@ class WeatherDisplay extends React.Component {
                 <h1 class="display-deg" onClick={() => this.setState({isCelsius: !this.state.isCelsius})}>{this.FormatDegrees(this.props.degrees)}</h1>
                 <h2 class="display-desc">{this.props.desc}</h2>
                 <h3 class="display-date">{this.props.day} / {this.props.month}</h3>
+                <h3 class="display-date">London</h3>
             </div>
         )
     }
